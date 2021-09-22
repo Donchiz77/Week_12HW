@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS Empoyees_DB;
-CREATE database Employees_DB;
+DROP DATABASE IF EXISTS empoyees_DB;
+CREATE database employees_DB;
 
-USE Employees_DB;
+USE employees_DB;
 
 CREATE TABLE department (
   id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -45,7 +45,7 @@ VALUES
     ('Media Specialist', 3000000, 3),
     ('Vice President', 45000000, 4),
     ('CEO Assistant', 25000000, 4);
-INSERT INTO employee_trackerDB
+INSERT INTO employees_DB
     (first_name, last_name, role_id, manager_id)
 VALUES
     ('Vaughn', 'Gittin Jr.', 1, NULL),
